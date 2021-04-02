@@ -148,3 +148,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = "/home/zomik/public_html/env/repo/zomik/static/"
+
+STATICFILES_DIRS = [
+    "/home/zomik/public_html/env/repo/zomik/Panel/static/",
+    "/home/zomik/public_html/env/repo/zomik/Site/static/",
+]
